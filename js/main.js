@@ -73,9 +73,11 @@ $(function() {
 		}).done(function (data) {
 			$.magnificPopup.close();
 			$.magnificPopup.open({
-				src: '#modal-thanks',
-				type: 'inline'
-			}); // window.location.replace("/thanks.html");
+        items: {
+          src: '#modal-thanks', // can be a HTML string, jQuery object, or CSS selector
+          type: 'inline'
+			}
+		});
 
 			setTimeout(function () {
 				// Done Functions
