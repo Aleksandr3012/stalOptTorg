@@ -12,7 +12,8 @@ $mail->CharSet = 'utf-8';
 ///от кого письмо  
 $mail->setFrom('info@info.com','info info');
 
- $mail->addAddress('flaming3012@gmail.com');
+ $mail->addAddress('steelot@mail.ru');
+ $mail->addAddress('spike.mgn@gmail.com');
  // $mail->addAddress('horenkova369@gmail.com');
 // $mail->addAddress('stab@inbox.support');
 
